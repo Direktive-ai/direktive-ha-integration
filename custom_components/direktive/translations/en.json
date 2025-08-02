@@ -1,0 +1,43 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "api_endpoint": "API Endpoint",
+                    "api_key": "API Key"
+                },
+                "description": "Enter your Direktive.ai API credentials",
+                "title": "Connect to Direktive.ai"
+            },
+            "entity_select": {
+                "data": {
+                    "entities": "Entities",
+                    "subscription_info": "Subscription Information"
+                },
+                "description": "{subscription_info}",
+                "title": "Direktive.ai Configuration"
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error",
+            "no_subscription_type": "Could not retrieve subscription details. Please go back and check your API key and/or subscription details."
+        },
+        "abort": {
+            "already_configured": "Device is already configured"
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "entities": "Entities"
+                },
+                "description": "{subscription_info}",
+                "title": "Direktive.ai Configuration"
+            }
+        }
+    },
+    "title": "Direktive.ai Remote Sync"
+} 

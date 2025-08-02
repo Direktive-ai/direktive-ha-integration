@@ -1,0 +1,12 @@
+{
+  "domain": "direktive",
+  "name": "Direktive.ai HA Integration",
+  "config_flow": true,
+  "documentation": "https://github.com/Direktive-ai/direktive-ha-integration",
+  "issue_tracker": "https://github.com/Direktive-ai/direktive-ha-integration/issues",
+  "dependencies": ["sensor"],
+  "codeowners": ["@direktiveai"],
+  "requirements": ["aiohttp", "cryptography"],
+  "iot_class": "cloud_push",
+  "version": "1.0.0"
+}
